@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.footer {
+  background-color: rgb(184, 177, 219);
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 80px;
+    width: 100%,
+}
+
+.jumbotron{
+  height: 200px;
+  width: 100%;
+}
