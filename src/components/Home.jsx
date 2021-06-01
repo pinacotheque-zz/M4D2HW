@@ -21,10 +21,7 @@ class Home extends Component{
       </Container>
       <Row className ="mx-5 mt-5 ">
         <Col><Button onClick={LatestRelease} variant="success">Fantasy</Button></Col>
-        <Col><Button variant="success">History</Button></Col>
-        <Col><Button variant="success">Horror</Button></Col>
-        <Col><Button variant="success">Romance</Button></Col>
-        <Col><Button variant="success">Sci-Fi</Button></Col>
+        
       </Row>
       </div>
     )
