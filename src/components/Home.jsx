@@ -1,11 +1,12 @@
 import {Component} from 'react'
 import { Jumbotron,Button, Col, Container, ListGroup, Row } from 'react-bootstrap'
+import LatestRelease from './LatestRelease'
 
 class Home extends Component{
     render (){
     return (
         <div>
-        <Container className="bg-warning mt-3 jumbotron">
+        <Container className="bg-light mt-3 jumbotron">
             <Col xs={12} md={8}>
             <Jumbotron fluid className="text-align-center">
             <h1 className="pt-3 justify-content-center">Welcome!</h1>
@@ -19,7 +20,7 @@ class Home extends Component{
         </Col>
       </Container>
       <Row className ="mx-5 mt-5 ">
-        <Col><Button variant="success">Fantasy</Button></Col>
+        <Col><Button onClick={LatestRelease} variant="success">Fantasy</Button></Col>
         <Col><Button variant="success">History</Button></Col>
         <Col><Button variant="success">Horror</Button></Col>
         <Col><Button variant="success">Romance</Button></Col>
